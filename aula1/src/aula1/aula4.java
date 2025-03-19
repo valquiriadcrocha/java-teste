@@ -24,9 +24,9 @@ public class aula4 {
 		
 		comissao = totalVendas * 0.15f;
 		
-		salarioComComissao = salarioFixo = comissao;
+		salarioComComissao = salarioFixo + comissao;
 		
-		System.out.println("Seu nome é" + nomeVendedor + ", seu salário fixo é" + salarioFixo +" e seu salário no fim do mês é" + salarioComComissao);
+		System.out.println("Seu nome é " + nomeVendedor + ", seu salário fixo é " + salarioFixo +" e seu salário no fim do mês é " + salarioComComissao);
 		
 		
 		}
