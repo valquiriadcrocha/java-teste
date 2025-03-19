@@ -1,7 +1,10 @@
 package aula1;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
+
 public class aula5 {
+	public static void main(String[]args) {
 	Scanner leitor = new Scanner(System.in);
     DecimalFormat formatador = new DecimalFormat("0.00");
   
@@ -24,9 +27,11 @@ public class aula5 {
   System.out.println("Digite a nota da sua terceira prova");
      nota3 = leitor.nextFloat();
      
-     //para colocar a média final em uma variável só 
+    
      mediaFinal = (nota1 + nota2 + nota3) / 3;
      
-   //o formatador é para formatar o número decimal com apenas duas casas depois da vírgula  
+   //
    System.out.println("Seu nome é " + nomeAluno + " e sua média final é " + formatador.format(mediaFinal));
+	}
+	
 }
